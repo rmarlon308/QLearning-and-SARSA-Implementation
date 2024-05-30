@@ -34,7 +34,7 @@ The solution of the world is represented with this arrows and only this acctions
 #### Q Learning
 - World 1:
   
-<img src="Images/q1.png" height="200">
+<img src="Images/q1.png" height="150">
 
 - World labyrinth:
   
@@ -43,12 +43,12 @@ The solution of the world is represented with this arrows and only this acctions
 - CliffWorld:
     - In this world the beggining is at (3,0) coordinate.
     
-<img src="Images/q3.png" height="200">
+<img src="Images/q3.png" height="100">
 
 #### SARSA
 - World 1:
   
-<img src="Images/s1.png" height="200">
+<img src="Images/s1.png" height="150">
 
 - World labyrinth:
   
@@ -57,7 +57,7 @@ The solution of the world is represented with this arrows and only this acctions
 - CliffWorld:
     - In this world the beggining is at (3,0) coordinate.
   
-<img src="Images/s3.png" height="200">
+<img src="Images/s3.png" height="100">
 
 #### Comparison
 
