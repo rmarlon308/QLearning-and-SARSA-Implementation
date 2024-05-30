@@ -33,9 +33,11 @@ The solution of the world is represented with this arrows and only this acctions
 
 #### Q Learning
 - World 1:
+
 Converged after 44 episodes.
+
  V  X  >  >  V  X  >  >  V <br>
- V  X  ^  X  V  X  ^  X  V 
+ V  X  ^  X  V  X  ^  X  V <br>
  V  X  ^  X  V  X  ^  X  V 
  V  X  ^  X  V  X  ^  X  V 
  V  X  ^  X  V  X  ^  X  V 
