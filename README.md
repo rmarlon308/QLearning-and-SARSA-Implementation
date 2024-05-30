@@ -9,14 +9,7 @@ This project showcases the implementation of two reinforcement learning algorith
 
 The Bellman equation for Q-learning is:
 
-\[ Q(s, a) = Q(s, a) + \alpha \left( r + \gamma \max_a Q(s', a) - Q(s, a) \right) \]
-
-Where:
-- \( Q(s, a) \) is the Q-value for state-action pair \( (s, a) \).
-- \( r \) is the immediate reward received after taking action \( a \) in state \( s \).
-- \( \alpha \) is the learning rate, controlling the weight of new information.
-- \( \gamma \) is the discount factor, determining the importance of future rewards.
-- \( s' \) is the next state after taking action \( a \).
+Q(s, a) = Q(s, a) + α * (r + γ * max_a Q(s', a) - Q(s, a))
 
 ### SARSA
 - **On-policy Learning**: SARSA (State-Action-Reward-State-Action) is an on-policy reinforcement learning algorithm, which learns and updates Q-values based on the policy it follows during training.
@@ -25,15 +18,7 @@ Where:
 
 The Bellman equation for SARSA is:
 
-\[ Q(s, a) = Q(s, a) + \alpha \left( r + \gamma Q(s', a') - Q(s, a) \right) \]
-
-Where:
-- \( Q(s, a) \) is the Q-value for state-action pair \( (s, a) \).
-- \( r \) is the immediate reward received after taking action \( a \) in state \( s \).
-- \( \alpha \) is the learning rate, controlling the weight of new information.
-- \( \gamma \) is the discount factor, determining the importance of future rewards.
-- \( s' \) is the next state after taking action \( a \).
-- \( a' \) is the next action chosen according to the policy.
+Q(s, a) = Q(s, a) + α * (r + γ * Q(s', a') - Q(s, a))
 
 ### Perforamance
 
@@ -49,7 +34,7 @@ The solution of the world is represented with this arrows and only this acctions
 #### Q Learning
 - World 1:
 Converged after 44 episodes.
- V  X  >  >  V  X  >  >  V 
+ V  X  >  >  V  X  >  >  V <br>
  V  X  ^  X  V  X  ^  X  V 
  V  X  ^  X  V  X  ^  X  V 
  V  X  ^  X  V  X  ^  X  V 
