@@ -34,30 +34,30 @@ The solution of the world is represented with this arrows and only this acctions
 #### Q Learning
 - World 1:
   
-<img src="Images/q1.png" alt="Question 1" height="200">
+<img src="Images/q1.png" height="200">
 
 - World labyrinth:
   
-![](Images/q2.png)
+<img src="Images/q2.png" height="350">
 
 - CliffWorld:
     - In this world the beggining is at (3,0) coordinate.
     
-![](Images/q3.png)
+<img src="Images/q3.png" height="200">
 
 #### SARSA
 - World 1:
   
-![](Images/s1.png)
+<img src="Images/s1.png" height="200">
 
 - World labyrinth:
   
-![](Images/s2.png)
+<img src="Images/s2.png" height="350">
 
 - CliffWorld:
     - In this world the beggining is at (3,0) coordinate.
   
-![](Images/s3.png)
+<img src="Images/s3.png" height="200">
 
 #### Comparison
 
