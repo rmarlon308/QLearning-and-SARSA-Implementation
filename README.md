@@ -38,91 +38,100 @@ Converged after 44 episodes.
 
  V  X  >  >  V  X  >  >  V <br>
  V  X  ^  X  V  X  ^  X  V <br>
- V  X  ^  X  V  X  ^  X  V 
- V  X  ^  X  V  X  ^  X  V 
- V  X  ^  X  V  X  ^  X  V 
- V  X  ^  X  V  X  ^  X  V 
- V  X  ^  X  V  X  ^  X  V 
- V  X  ^  X  V  X  ^  X  V 
- >  >  ^  X  >  >  ^  X  F
+ V  X  ^  X  V  X  ^  X  V <br>
+ V  X  ^  X  V  X  ^  X  V <br>
+ V  X  ^  X  V  X  ^  X  V <br>
+ V  X  ^  X  V  X  ^  X  V <br>
+ V  X  ^  X  V  X  ^  X  V <br>
+ V  X  ^  X  V  X  ^  X  V <br>
+ >  >  ^  X  >  >  ^  X  F<br>
 
 - World labyrinth:
+  
 Converged after 64 episodes.
- V  X  V  X  ^  ^  >  >  V  X  ^  ^  ^  ^  ^  X  X  X  ^  X  ^ 
- V  X  V  X  X  X  X  X  V  X  X  X  X  X  ^  <  <  X  ^  X  ^ 
- V  X  >  >  V  <  <  <  <  X  V  <  V  X  ^  X  X  X  ^  X  ^ 
- V  X  ^  X  V  X  ^  X  ^  X  ^  X  ^  <  >  V  X  V  ^  X  ^ 
- >  >  ^  X  V  X  ^  X  X  X  X  X  X  X  X  V  X  ^  X  X  ^ 
- X  X  X  X  V  X  ^  <  <  X  >  >  >  >  >  V  X  >  V  <  ^ 
- >  >  >  >  V  X  X  X  ^  X  X  X  X  X  X  V  X  X  V  X  ^ 
- X  X  X  X  V  X  V  X  ^  X  V  <  <  <  <  <  <  <  <  X  ^ 
- V  <  <  X  V  <  <  X  X  X  V  <  X  X  X  X  X  X  X  X  ^ 
- V  X  ^  X  V  X  ^  X  >  >  V  X  X  V  <  <  <  <  <  X  X 
- V  X  ^  X  V  X  X  X  ^  X  V  X  V  <  X  X  X  X  ^  <  < 
- V  X  ^  X  V  X  >  >  ^  X  V  X  V  X  X  V  V  X  X  X  ^ 
- V  X  ^  <  <  X  X  ^  X  X  V  X  V  X  >  >  >  >  V  X  ^ 
- V  X  X  X  X  X  >  ^  X  >  >  >  >  >  ^  X  X  X  V  X  ^ 
- >  >  >  V  X  >  ^  X  X  ^  X  ^  X  X  ^  X  V  <  <  X  ^ 
- X  X  X  >  >  ^  X  X  >  ^  X  ^  <  X  X  X  V  X  X  X  X 
- >  V  X  X  ^  X  X  X  X  X  X  X  ^  <  <  X  V  X  >  >  V 
- X  >  V  X  ^  X  >  >  V  X  >  >  ^  X  X  X  V  X  ^  X  V 
- X  X  >  >  ^  X  X  X  V  X  X  X  ^  <  <  X  >  >  ^  X  V 
- V  X  X  ^  X  X  V  <  <  <  <  X  ^  X  X  X  X  X  X  X  V 
- >  >  >  ^  <  <  <  X  X  X  ^  X  ^  <  <  <  <  V  V  X  F
+
+ V  X  V  X  ^  ^  >  >  V  X  ^  ^  ^  ^  ^  X  X  X  ^  X  ^ <br>
+ V  X  V  X  X  X  X  X  V  X  X  X  X  X  ^  <  <  X  ^  X  ^ <br>
+ V  X  >  >  V  <  <  <  <  X  V  <  V  X  ^  X  X  X  ^  X  ^ <br>
+ V  X  ^  X  V  X  ^  X  ^  X  ^  X  ^  <  >  V  X  V  ^  X  ^ <br>
+ >  >  ^  X  V  X  ^  X  X  X  X  X  X  X  X  V  X  ^  X  X  ^ <br>
+ X  X  X  X  V  X  ^  <  <  X  >  >  >  >  >  V  X  >  V  <  ^ <br>
+ >  >  >  >  V  X  X  X  ^  X  X  X  X  X  X  V  X  X  V  X  ^ <br>
+ X  X  X  X  V  X  V  X  ^  X  V  <  <  <  <  <  <  <  <  X  ^ <br>
+ V  <  <  X  V  <  <  X  X  X  V  <  X  X  X  X  X  X  X  X  ^ <br>
+ V  X  ^  X  V  X  ^  X  >  >  V  X  X  V  <  <  <  <  <  X  X <br>
+ V  X  ^  X  V  X  X  X  ^  X  V  X  V  <  X  X  X  X  ^  <  < <br>
+ V  X  ^  X  V  X  >  >  ^  X  V  X  V  X  X  V  V  X  X  X  ^ <br>
+ V  X  ^  <  <  X  X  ^  X  X  V  X  V  X  >  >  >  >  V  X  ^ <br>
+ V  X  X  X  X  X  >  ^  X  >  >  >  >  >  ^  X  X  X  V  X  ^ <br>
+ >  >  >  V  X  >  ^  X  X  ^  X  ^  X  X  ^  X  V  <  <  X  ^ <br>
+ X  X  X  >  >  ^  X  X  >  ^  X  ^  <  X  X  X  V  X  X  X  X <br>
+ >  V  X  X  ^  X  X  X  X  X  X  X  ^  <  <  X  V  X  >  >  V <br>
+ X  >  V  X  ^  X  >  >  V  X  >  >  ^  X  X  X  V  X  ^  X  V <br>
+ X  X  >  >  ^  X  X  X  V  X  X  X  ^  <  <  X  >  >  ^  X  V <br>
+ V  X  X  ^  X  X  V  <  <  <  <  X  ^  X  X  X  X  X  X  X  V <br>
+ >  >  >  ^  <  <  <  X  X  X  ^  X  ^  <  <  <  <  V  V  X  F <br>
 
 - CliffWorld:
   - In this world the beggining is at (3,0) coordinate.
+    
 Converged after 14 episodes.
- V  V  >  V  >  >  V  V  >  >  V  V 
- >  >  >  >  >  >  >  >  >  V  V  V 
- >  >  >  >  >  >  >  >  >  >  >  V 
- ^  X  X  X  X  X  X  X  X  X  X  F
+
+ V  V  >  V  >  >  V  V  >  >  V  V <br>
+ >  >  >  >  >  >  >  >  >  V  V  V <br>
+ >  >  >  >  >  >  >  >  >  >  >  V <br>
+ ^  X  X  X  X  X  X  X  X  X  X  F <br>
 
 #### SARSA
 - World 1:
+  
 Converged after 119 episodes.
- V  X  >  >  V  X  >  >  V 
- V  X  ^  X  V  X  ^  X  V 
- V  X  ^  X  V  X  ^  X  V 
- V  X  ^  X  V  X  ^  X  V 
- V  X  ^  X  V  X  ^  X  V 
- V  X  ^  X  V  X  ^  X  V 
- V  X  ^  X  V  X  ^  X  V 
- V  X  ^  X  V  X  ^  X  V 
- >  >  ^  X  >  >  ^  X  F
+
+ V  X  >  >  V  X  >  >  V <br>
+ V  X  ^  X  V  X  ^  X  V <br>
+ V  X  ^  X  V  X  ^  X  V <br>
+ V  X  ^  X  V  X  ^  X  V <br>
+ V  X  ^  X  V  X  ^  X  V <br>
+ V  X  ^  X  V  X  ^  X  V <br>
+ V  X  ^  X  V  X  ^  X  V <br>
+ V  X  ^  X  V  X  ^  X  V <br>
+ >  >  ^  X  >  >  ^  X  F <br>
 
 - World labyrinth:
+  
 Converged after 155 episodes.
- V  X  V  X  >  ^  >  >  V  X  >  >  >  >  V  X  X  X  V  X  ^ 
- V  X  V  X  X  X  X  X  V  X  X  X  X  X  V  >  <  X  ^  X  V 
- V  X  >  >  V  <  <  <  V  X  >  <  <  X  V  X  X  X  V  X  ^ 
- V  X  ^  X  V  X  ^  X  ^  X  ^  X  >  <  >  V  X  V  <  X  V 
- >  >  ^  X  V  X  V  X  X  X  X  X  X  X  X  V  X  V  X  X  V 
- X  X  X  X  V  X  >  <  V  X  >  >  >  >  >  V  X  >  >  >  V 
- >  <  >  >  V  X  X  X  ^  X  X  X  X  X  X  ^  X  X  V  X  ^ 
- X  X  X  X  V  X  V  X  ^  X  >  V  <  <  <  <  <  <  ^  X  ^ 
- V  <  <  X  V  <  <  X  X  X  V  ^  X  X  X  X  X  X  X  X  ^ 
- V  X  ^  X  V  X  ^  X  >  >  V  X  X  V  <  <  >  >  <  X  X 
- V  X  ^  X  V  X  X  X  ^  X  V  X  V  <  X  X  X  X  ^  <  V 
- V  X  ^  X  V  X  >  >  ^  X  V  X  V  X  X  >  <  X  X  X  ^ 
- V  X  ^  <  <  X  X  ^  X  X  V  X  V  X  >  >  >  >  V  X  > 
- V  X  X  X  X  X  >  ^  X  >  >  >  >  >  ^  X  X  X  V  X  ^ 
- >  >  >  V  X  >  ^  X  X  ^  X  ^  X  X  ^  X  V  <  <  X  ^ 
- X  X  X  >  >  ^  X  X  >  ^  X  ^  <  X  X  X  V  X  X  X  X 
- >  V  X  X  ^  X  X  X  X  X  X  X  >  <  <  X  V  X  >  >  V 
- X  >  V  X  V  X  >  >  V  X  >  >  ^  X  X  X  V  X  ^  X  V 
- X  X  >  <  ^  X  X  X  V  X  X  X  ^  <  <  X  >  >  ^  X  V 
- V  X  X  ^  X  X  V  <  <  <  <  X  ^  X  X  X  X  X  X  X  V 
- >  >  >  ^  V  V  <  X  X  X  ^  X  ^  V  V  <  <  V  <  X  F
+
+ V  X  V  X  >  ^  >  >  V  X  >  >  >  >  V  X  X  X  V  X  ^ <br>
+ V  X  V  X  X  X  X  X  V  X  X  X  X  X  V  >  <  X  ^  X  V <br>
+ V  X  >  >  V  <  <  <  V  X  >  <  <  X  V  X  X  X  V  X  ^ <br>
+ V  X  ^  X  V  X  ^  X  ^  X  ^  X  >  <  >  V  X  V  <  X  V <br>
+ >  >  ^  X  V  X  V  X  X  X  X  X  X  X  X  V  X  V  X  X  V <br>
+ X  X  X  X  V  X  >  <  V  X  >  >  >  >  >  V  X  >  >  >  V <br>
+ >  <  >  >  V  X  X  X  ^  X  X  X  X  X  X  ^  X  X  V  X  ^ <br>
+ X  X  X  X  V  X  V  X  ^  X  >  V  <  <  <  <  <  <  ^  X  ^ <br>
+ V  <  <  X  V  <  <  X  X  X  V  ^  X  X  X  X  X  X  X  X  ^ <br>
+ V  X  ^  X  V  X  ^  X  >  >  V  X  X  V  <  <  >  >  <  X  X <br>
+ V  X  ^  X  V  X  X  X  ^  X  V  X  V  <  X  X  X  X  ^  <  V <br>
+ V  X  ^  X  V  X  >  >  ^  X  V  X  V  X  X  >  <  X  X  X  ^ <br>
+ V  X  ^  <  <  X  X  ^  X  X  V  X  V  X  >  >  >  >  V  X  > <br>
+ V  X  X  X  X  X  >  ^  X  >  >  >  >  >  ^  X  X  X  V  X  ^ <br>
+ >  >  >  V  X  >  ^  X  X  ^  X  ^  X  X  ^  X  V  <  <  X  ^ <br>
+ X  X  X  >  >  ^  X  X  >  ^  X  ^  <  X  X  X  V  X  X  X  X <br>
+ >  V  X  X  ^  X  X  X  X  X  X  X  >  <  <  X  V  X  >  >  V <br>
+ X  >  V  X  V  X  >  >  V  X  >  >  ^  X  X  X  V  X  ^  X  V <br>
+ X  X  >  <  ^  X  X  X  V  X  X  X  ^  <  <  X  >  >  ^  X  V <br>
+ V  X  X  ^  X  X  V  <  <  <  <  X  ^  X  X  X  X  X  X  X  V <br>
+ >  >  >  ^  V  V  <  X  X  X  ^  X  ^  V  V  <  <  V  <  X  F <br>
 
 - CliffWorld:
 - In this world the beggining is at (3,0) coordinate.
   
 Converged after 31 episodes.
- >  >  >  >  >  >  >  >  >  >  V  V 
- ^  ^  ^  ^  ^  ^  ^  ^  ^  ^  V  V 
- ^  ^  ^  ^  ^  ^  ^  ^  ^  ^  >  V 
- ^  X  X  X  X  X  X  X  X  X  X  F
+
+ >  >  >  >  >  >  >  >  >  >  V  V <br>
+ ^  ^  ^  ^  ^  ^  ^  ^  ^  ^  V  V <br>
+ ^  ^  ^  ^  ^  ^  ^  ^  ^  ^  >  V <br>
+ ^  X  X  X  X  X  X  X  X  X  X  F <br>
 
 #### Comparison
 
