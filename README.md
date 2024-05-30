@@ -11,7 +11,7 @@ This project demonstrates the implementation of two reinforcement learning algor
 
 The Bellman equation for Q Learning is:
 
-\[ Q(s, a) = Q(s, a) + \alpha \cdot (r + \gamma \cdot \max_{a'} Q(s', a') - Q(s, a)) \]
+Q(s, a) = Q(s, a) + α * (r + γ * max_a Q(s', a) - Q(s, a))
 
 ### SARSA
 - **On-policy Learning**: SARSA (State-Action-Reward-State-Action) is an on-policy reinforcement learning algorithm, which learns and updates Q-values based on the policy it follows during training.
@@ -20,7 +20,7 @@ The Bellman equation for Q Learning is:
 
 The Bellman equation for SARSA is:
 
-\[ Q(s, a) = Q(s, a) + \alpha \cdot (r + \gamma \cdot Q(s', a') - Q(s, a)) \]
+Q(s, a) = Q(s, a) + α * (r + γ * Q(s', a') - Q(s, a))
 
 ## Performance
 
@@ -66,7 +66,7 @@ The different worlds have dimensions NxN, and in most cases, the agent starts at
 
 Both algorithms achieve great results and manage to find the solution in most cases. However, there are clear differences between SARSA and Q Learning algorithms:
 
-- **Convergence Speed**: Q Learning tends to converge faster than SARSA. This is because Q Learning updates each (s, a) pair with the best possible action, \(\max_{a'} Q(s', a')\), leading to faster convergence. In contrast, SARSA updates (s, a) with the next actual action (s', a'), leading to a more exploratory and sometimes slower learning process.
+- **Convergence Speed**: Q Learning tends to converge faster than SARSA. This is because Q Learning updates each (s, a) pair with the best possible action, max_a Q(s', a), leading to faster convergence. In contrast, SARSA updates (s, a) with the next actual action (s', a'), leading to a more exploratory and sometimes slower learning process.
 - **Risk-Taking**: SARSA takes fewer risks compared to Q Learning. For example, in the CliffWorld map, Q Learning finds the optimal solution near the obstacles, while SARSA tends to take more steps away from the obstacles, making it a more conservative algorithm. This difference arises because SARSA's on-policy nature makes it more cautious in its updates, whereas Q Learning, being off-policy, aggressively pursues the optimal policy.
 
 By comparing the performance of these algorithms across different worlds, we can gain insights into their strengths and weaknesses, and choose the appropriate algorithm based on the specific requirements of the task at hand.
