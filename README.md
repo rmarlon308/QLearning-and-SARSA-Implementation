@@ -34,7 +34,7 @@ The solution of the world is represented with this arrows and only this acctions
 #### Q Learning
 - World 1:
   
-![](Images/q1.png =650x)
+<img src="Images/q1.png" alt="Question 1" height="200">
 
 - World labyrinth:
   
