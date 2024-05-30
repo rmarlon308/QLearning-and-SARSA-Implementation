@@ -44,7 +44,7 @@ Converged after 44 episodes.
  V  X  ^  X  V  X  ^  X  V <br>
  V  X  ^  X  V  X  ^  X  V <br>
  V  X  ^  X  V  X  ^  X  V <br>
- >  >  ^  X  >  >  ^  X  F<br>
+ >  >  ^  X  >  >  ^  X  F <br>
 
 - World labyrinth:
   
